@@ -1,24 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 html body {
     height: 100%;
 }
 
+body {
+    background-color:lightsalmon;
+    background-image: url(/images/anime_background2.webp);
+}
+
 header {
+    width: 100%;
     font-weight: bold;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkblue;
+    background-color:black;
     color:beige;
     
 }
 footer {
-    background-color: darkblue;
+    background-color: black;
     color: beige;
 }
 
 #hype {
-    margin-top: 30px;
+    margin-top: 25px;
+}
+#title {
+    background-color: black;
+    color:beige;
+}
+.dropdown {
+    display: inline;
 }
