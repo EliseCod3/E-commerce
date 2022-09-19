@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html body {
+    height: 100%;
+}
+
+header {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkblue;
+    color:beige;
+    
+}
+footer {
+    background-color: darkblue;
+    color: beige;
+}
+
