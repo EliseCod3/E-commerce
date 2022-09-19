@@ -33,4 +33,9 @@ footer {
 }
 p {
     color:beige
+}#specify {
+    justify-content: space-between;
+}
+.button {
+    text-align: end;
 }
