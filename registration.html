@@ -26,11 +26,24 @@
         </ul>
     </nav>
 <!--Register form-->
-    <div class="container-fluid">
-        <div id="compliment" class="text-center">
-            <img src="./images/anime_background5.jpg" alt="cool anime girl checking out the cool person registering">
+    <div class="container-fluid-md">
         </div>
         <form>
+            <div class="row">
+                <div class="col-lg-5 col-md-4">
+                    <div id="compliment" class="text-center">
+                        <img src="./images/anime_background5.jpg" alt="cool anime girl checking out the cool person registering">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username"><br>
+                </div>
+                <div class="col-md-4">
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="pwd">
+                </div>
+            </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
