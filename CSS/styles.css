@@ -25,7 +25,11 @@ footer {
 #hype {
     height: 100%;
 }
+.pop {
+    color: beige;
+    font-size: 17px;
 
+}
 
 #hype {
     margin-top: 25px;
@@ -46,7 +50,9 @@ p {
     text-align: end;
 }
 #headbutton {
-    font-weight: 100;
+    display:inline-flex;
+    font-weight: 400;
     font-size: 20px;
     text-decoration:overline;
+    color:blue;
 }

@@ -14,26 +14,26 @@
     <div class="container-fluid text-center">
         <header>
             Hoodie Season !!
-            <div id="button">
-              <button type="button" class="btn btn-outline-light" aria-current="page" href="./index.html">Home</button> 
-            </div>
-            <!--Sign in button-->
-            <div id="button">
-              <a id="headbutton" class="nav-link" href="./signin.html"> Sign In</a>
-            </div>
         </header>
     </div>
 
 <!--Navigation to all the different pages of the website-->
     <nav class="container">
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./registration.html">Register</a>
-        </li>
-      </ul>
+      <div class="row">
+        <div class="col-lg-3 col-sm-3 ">
+          <a id="headbutton" class="nav-link" aria-current="page" href="./index.html">Home</a>
+        </div>
+        <div class="col-lg-3 col-sm-3 ">
+          <a id="headbutton" class="nav-link" href="./registration.html">Register</a>
+        </div>
+        <div class="col-lg-3 col-sm-3 ">
+          <!--Sign in button-->
+          <a id="headbutton" class="nav-link" href="./signin.html"> Sign In</a>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-md">
+          <!--Log in-->
+          <a id="headbutton" class="nav-link" href="...">Log In</a>
+        </div>
     </nav>
 
 <!--Specify what type of hoodies to look at-->
@@ -47,6 +47,7 @@
             <li>HxH</li>
             <li>Demon Slayer</li>
             <li>Jujutsu Kaisen</li>
+            <li>Tokyo Revengers</li>
           </ul>
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -65,6 +66,10 @@
             </button>
             <ul class="dropdown-menu">
               <li>Red</li>
+              <li>Black</li>
+              <li>Gray</li>
+              <li>white</li>
+              <li>Blue</li>
             </ul>
           </div>
         </div>
@@ -77,7 +82,7 @@
         </div>
         <div class="row">
           <div class="col">
-            <ul>
+            <ul class="pop">
               <li>Hoodies for anime lovers</li>
               <li>Browse through a huge variety of anime hoodies</li>
               <li>No matter which anime you're into, you'll find a hoodie for you here </li>
@@ -114,7 +119,7 @@
         <p>We know you love anime and other Japanese culture but what can you wear to show your love? Our website is full of different clothing items with the most popular Anime character printed on them</p>
       </div>
 
-      <footer class="d-flex justify-content-end">
+      <footer class="d-flex justify-content-end sticky-bottom">
         <div>
           <p>Contact</p>
         </div>
