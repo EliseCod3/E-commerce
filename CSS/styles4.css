@@ -39,6 +39,11 @@ footer {
     margin-top: auto;
 
 }
+p {
+    border-style: line;
+    border: 3px;
+    border-color: black;
+}
 #footer {
     position: absolute;
     bottom: 0;
