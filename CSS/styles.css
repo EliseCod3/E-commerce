@@ -16,6 +16,7 @@ header {
     color:beige;
     
 }
+
 footer {
     background-color: black;
     color: beige;
@@ -55,4 +56,5 @@ p {
     font-size: 20px;
     text-decoration:overline;
     color:blue;
+    justify-content: space-evenly;
 }

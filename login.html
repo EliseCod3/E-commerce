@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/styles4.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+        <header>
+            What's the password?
+        </header>
+    </div>
+
+
+    <!--Navigation to all the different pages of the website-->
+    <nav class="container justify-content-center">
+        <div class="row">
+          <div class="col-lg-2 col-sm-3 ">
+            <!--Home button-->
+            <a id="headbutton" class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </div>
+          <div class="col-lg-4 col-sm-3 ">
+            <!--Products button-->
+            <a id="headbutton" class="nav-link" href="./products.html"> Products</a>
+          </div>
+          <div class="col-lg-4 col-sm-3 ">
+            <!--Register button-->
+            <a id="headbutton" class="nav-link" href="./registration.html">Register</a>
+          </div>
+          <div class="col-lg-2 col-sm-3 col-md">
+            <!--Log in-->
+            <a id="headbutton" class="nav-link" href="./login.html">Log In</a>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="text-center">
+                <img src="./images/hoodie_logo2.jpg" class="rounded" width="200" alt="Hoodie company logo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-md-4">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username"><br>
+                </div>
+                <div class="col-lg-4">
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="pwd">  
+                </div>
+                <div class="col-lg-2">
+                    <button type="submit" class="btn btn-primary">log in</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container-fluid">
+        <footer class="d-flex sticky-bottom">
+          <div>
+            <p>Contact</p>
+            <h6>*Hoodies in images are not personally owned and are distributed seperately by different sellers </h6>
+          </div>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
