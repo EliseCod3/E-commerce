@@ -1,3 +1,11 @@
 .card {
-    ;
+    padding-inline-start: 10px;
+    margin: 5px;
+}
+#headbutton {
+    display:inline-flex;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration:overline;
+    color:blue;
 }
