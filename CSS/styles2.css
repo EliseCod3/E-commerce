@@ -11,3 +11,13 @@ header {
     background-color: black;
     color:beige
 }
+img {
+    padding-bottom: 20px;
+}
+footer {
+    background-color: black;
+    color: beige;
+    padding: 10px;
+    justify-content:;
+
+}
