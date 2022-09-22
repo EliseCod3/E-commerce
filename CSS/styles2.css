@@ -6,8 +6,9 @@ body {
     background-color: lightsalmon;
 }
 header {
-    font-weight: bold;
-    font-size: 35px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 500;
+    font-size: 45px;
     background-color: black;
     color:beige
 }
