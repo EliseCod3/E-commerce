@@ -8,7 +8,7 @@ footer {
 header {
     width: 100%;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
     background-color:black;
     color:beige;
@@ -43,7 +43,8 @@ p {
 #title {
     background-color: black;
     color:beige;
-    margin-top: 10px;
+    margin-top: 30px;
+    font-size: 25px;
 }
 .t {
     text-align: center;
@@ -56,4 +57,5 @@ p {
     padding: 10px, 15px, 10px, 25px;
     text-align: center;
     margin-bottom: 25px;
+    color: beige;
 }
