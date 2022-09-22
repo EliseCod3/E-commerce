@@ -1,6 +1,4 @@
-html body {
-    height: 100%;
-}
+
 
 body {
     background-color:lightsalmon;
@@ -50,7 +48,8 @@ footer {
 }
 p {
     color:beige
-}#specify {
+}
+#specify {
     justify-content: space-between;
 }
 .button {

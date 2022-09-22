@@ -12,8 +12,11 @@ header {
     font-weight: 400;
     font-size: 20px;
     text-decoration:overline;
-    color:blue;
+    color:beige;
+    background-color:darkred;
     justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 15px, 25px, 8px, 25px;
 }
 button {
     margin: 10px;
