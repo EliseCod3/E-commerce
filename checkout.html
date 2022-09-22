@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="./CSS/styles5.css">
     <title>Document</title>
 </head>
@@ -35,19 +34,56 @@
                 <a id="headbutton" class="nav-link" href="./login.html">Log In</a>
             </div>
         </nav>
-        <div class="container-fluid">
+        <div class="container">
             <div class="p-2 text-center">
                 <h1 class="display-4">Your Details</h1>
             </div>
             <div class="row g-5 my-5">
-                <div class="col-md-5 col-lg-4 order-md-last">
-                    PLaceholder for basket contents
+                <div class="col-12 order-xs-last">
+                    <h4 class="mb-3">Redeem coupon</h4>
+                    <form class="card p-2">
+                        <div>
+                            <input type="text" class="form-control" placeholder="Promo code">
+                        </div>
+                        <button type="submit" class="btn btn-dark my-2">Redeem</button>
+                    </form>
+                </div>
+                <div id="items" class="container my-5">
+                    <div class="row g-3 my-5">
+                        <table class="table table-dark tabel-striped-columns">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Items</th>
+                                    <th scope="col">$</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td><img src="./images/hoodie_4.jpg" width="100" height="100" alt="Izuku Midoriya Hoodie">Izuku Midoriya Hoodie </td>
+                                    <td>$35.99</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td><img src="./images/hoodie_7.jpg" width="100" height="100" alt="Tanjiro Kamado Hoodie">Tanjiro Kamado Hoodie </td>
+                                    <td>$35.99</td>
+                                </tr>
+                                <tr>
+                                    <th scope=row>3</th>
+                                    <td><img src="./images/hoodie_3.jpg" width="100" height="100" alt="Hunter x Hunter">Hunter x Hunter Hoodie </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <form>
+                    <!--Information form-->
                     <div class="row g-3">
-                        <div id="sec" class="col-sm-12">
+                        <div id="sec" class="col-12">
                             <div class="input-group">
-                                <span class="input-group-text">First and last name</span>
+                                <span class="input-group-text" id="inputGroup-sizing-lg">First and last name</span>
                                 <input type="text" aria-label="First name" class="form-control">
                                 <input type="text" aria-label="Last name" class="form-control">
                             </div>
@@ -99,11 +135,60 @@
                             <label for="zip" class="form-label">Zip</label>
                             <input type="text" class="form-control" id="zip" placeholder="" >
                         </div>
-                        <hr class="my-4">
+
+                        <hr class="border border-dark border-3 opacity-75 my-4">
+
                         <div class="for-check">
                             <input type="checkbox" class="form-check-input" id="same-address">
-                            <label class="form-check-label" for="same-address">Shipping address id the same as my billing address</label>
+                            <label class="form-check-label" for="same-address">Shipping address ID the same as my billing address</label>
                         </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="save-info">
+                            <label class="form-check-label" for="save-info">Save this information for next time</label>
+                        </div>
+
+                        <hr class="border border-dark border-3 opacity-75 my-4">
+
+                        <h4 class="mb-3">Payment</h4>
+
+                        <div class="my-3">
+                            <div class="form-check">
+                                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked>
+                                <label class="form-check-label" for="credit">Credit card</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="debit" name="paymentMethod" type="radio" class="form-check-input">
+                                <label class="form-check-label" for="debit">Debit card</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input">
+                                <label class="form-check-label" for="paypal">PayPal</label>
+                            </div>
+                        </div>
+
+                        <div class="row gy-3">
+                            <div class="form-floating col-md-6">
+                                <input type="text" class="form-control" id="cc-name" placeholder="Mazikeen">
+                                <label for="cc-name">Name on card</label>
+                                <small class="text-muted">Full name as displayed on card</small>
+                            </div>
+                            <div class="form-floating col-md-6">
+                                <input type="text" class="form-control" id="cc-number" placeholder="xxx-xxxxx-xx">
+                                <label for="cc-number">Credit card number</label>
+                            </div>
+                            <div class="form-floating col-md-3">
+                                <input type="text" class="form-control" id="cc-expiration" placeholder="12/23">
+                                <label for="cc-expiration">Expiration</label>
+                            </div>
+                            <div class="form-floating col-md-3">
+                                <input type="text" class="form-control" id="cc-cvv" placeholder="123">
+                                <label for="cc-cvv">CVV</label>
+                            </div>
+
+                        </div>
+                        <hr class="border border-dark border-3 opacity-75 my-4">
+
+                        <button class="w-100 btn btn-primary btn-lg" type="submit">Place order</button> 
 
                         
                     </div>
