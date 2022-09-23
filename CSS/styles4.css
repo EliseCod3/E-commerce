@@ -26,20 +26,16 @@ img {
     justify-content: center;
     margin: 15px;
 }
-html body {
-    width: 100%;
-    height: 100%;
-}
+
 body {
-    display: flex;
-    flex-direction: column;
+  
     background-color:lightsalmon;
 }
 footer {
     background-color: black;
     color: beige;
     padding: 10px;
-    margin-top: auto;
+    width: 100%;
 
 }
 p {
@@ -47,9 +43,7 @@ p {
     border: 3px;
     border-color: black;
 }
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 5rem;   /* Footer height */
-  }
+#foot {
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
