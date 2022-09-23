@@ -48,3 +48,21 @@ footer {
     width: 100%;
 
 }
+#descript {
+    padding: 10px, 15px, 10px, 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    color:lightsalmon;
+    font-family: 'Courgette', cursive;
+    font-family: 'Patrick Hand', cursive;
+    
+}
+#title {
+    background-color: black;
+    color:darksalmon;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Courgette', cursive;
+}

@@ -13,6 +13,7 @@ header {
     background-color:black;
     color:beige;
     font-family: 'Patrick Hand', cursive;
+    font-family: 'Courgette', cursive;
     
 }
 body {
@@ -37,7 +38,8 @@ body {
 }
 p {
     color:black
-    font-family: 'Courgette', cursive;
+
+    font-family: 'Patrick Hand', cursive;
 }
 .dropdown {
     display: inline;
@@ -52,6 +54,7 @@ p {
     color:beige;
     margin-top: 30px;
     font-size: 25px;
+    font-family: 'Courgette', cursive;
 }
 .t {
     text-align: center;
@@ -60,6 +63,7 @@ p {
     color: beige;
     margin-top: 25px;
     font-family: 'Patrick Hand', cursive;
+    font-family: 'Courgette', cursive;
 }
 #descript {
     padding: 10px, 15px, 10px, 25px;
@@ -69,6 +73,8 @@ p {
     font-size: 20px;
     color:beige;
     font-family: 'Courgette', cursive;
+    font-family: 'Patrick Hand', cursive;
+    
 }
 .carousel-inner {
     padding-left: 95px;
@@ -78,6 +84,7 @@ p {
 }
 .tt {
     font-family: 'Patrick Hand', cursive;
+    font-family: 'Courgette', cursive;
 
 }
 img {
