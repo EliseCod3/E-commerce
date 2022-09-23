@@ -12,7 +12,11 @@
     background-color:darkred;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    padding: 15px, 25px, 8px, 25px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2em;
+    border-radius: 1em;
 }
 .card-body {
     margin: 10px;
