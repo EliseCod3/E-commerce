@@ -6,11 +6,12 @@ body {
     background-color:cornflowerblue;
 }
 header {
-    font-family: 'Patrick Hand', cursive;
+
     font-weight: 500;
     font-size: 45px;
     background-color: black;
-    color:beige
+    color:beige;
+    font-family: 'Courgette', cursive;
 }
 img {
     padding-bottom: 20px;
