@@ -37,6 +37,7 @@ body {
     border-color: black;
     border-width: 0.2em;
     border-radius: 1em;
+    font-family: 'Courgette', cursive;
 }
 p {
     color:black
